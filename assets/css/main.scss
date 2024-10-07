@@ -39,3 +39,27 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+@import "{{ site.theme }}";
+
+/* Add this to the end of the file */
+.publication-list {
+  .publication-item {
+    display: flex;
+    margin-bottom: 2em;
+    
+    .publication-image {
+      flex: 0 0 200px;
+      margin-right: 1em;
+      
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+    
+    .publication-content {
+      flex: 1;
+    }
+  }
+}
