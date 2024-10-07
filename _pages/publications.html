@@ -11,25 +11,11 @@ author_profile: true
 
 {% include base_path %}
 
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
+<div class="publication-list">
   {% for post in site.publications reversed %}
     {% include archive-single.html %}
   {% endfor %}
-{% endif %} -->
+</div> -->
 
 ---
 layout: archive
@@ -46,35 +32,7 @@ author_profile: true
 
 <div class="publication-list">
   {% for post in site.publications reversed %}
-    <div class="publication-item">
-      <div class="publication-image">
-        {% if post.header.teaser %}
-          <img src="{{ base_path }}{{ post.header.teaser }}" alt="{{ post.title }}">
-        {% endif %}
-      </div>
-      <div class="publication-content">
-        <h3 class="publication-title">{{ post.title }}</h3>
-        <p class="publication-authors">{{ post.authors }}</p>
-        <p class="publication-venue">{{ post.venue }}</p>
-        <div class="publication-links">
-          {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" class="btn btn-sm">paper</a>
-          {% endif %}
-          {% if post.codeurl %}
-            <a href="{{ post.codeurl }}" class="btn btn-sm">code</a>
-          {% endif %}
-          {% if post.websiteurl %}
-            <a href="{{ post.websiteurl }}" class="btn btn-sm">website</a>
-          {% endif %}
-          {% if post.videourl %}
-            <a href="{{ post.videourl }}" class="btn btn-sm">video</a>
-          {% endif %}
-          {% if post.dataseturl %}
-            <a href="{{ post.dataseturl }}" class="btn btn-sm">dataset</a>
-          {% endif %}
-        </div>
-      </div>
-    </div>
+    {% include archive-single.html %}
   {% endfor %}
 </div>
 
