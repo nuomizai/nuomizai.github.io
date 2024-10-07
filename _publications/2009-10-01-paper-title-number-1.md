@@ -42,5 +42,5 @@ websiteurl: 'http://example.com/project-website'
 videourl: 'http://youtube.com/example-video'
 dataseturl: 'http://example.com/dataset'
 header:
-  teaser: '/images/paper-thumbnail.png'
+  teaser: '/images/picture.png'
 ---
