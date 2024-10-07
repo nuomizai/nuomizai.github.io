@@ -39,3 +39,12 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.publication-title {
+color: #0066cc;  // 改变颜色
+font-size: 2.5em;  // 改变字体大小
+font-weight: bold;  // 加粗
+text-align: center;  // 居中对齐
+margin-bottom: 20px;  // 增加底部边距
+// 添加其他你想要的样式
+}
