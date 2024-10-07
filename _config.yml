@@ -156,7 +156,6 @@ include:
   - .htaccess
   - _pages
   - files
-  - assets/css
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
