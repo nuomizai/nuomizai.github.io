@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Paper Title Number 4"
 collection: publications
 category: manuscripts
@@ -27,4 +27,24 @@ citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 
     </ul>
     <p>For more details, please refer to the full paper.</p>
   </div>
-</div>
+</div> -->
+
+---
+title: "Paper Title Number X"
+collection: publications
+permalink: /publication/YYYY-MM-DD-paper-title-number-X
+excerpt: 'This paper is about X. The paper describes the main findings of our research.'
+date: YYYY-MM-DD
+venue: 'Journal or Conference Name'
+paperurl: 'http://academicpages.github.io/files/paper1.pdf'
+citation: 'Your Name, You. (YYYY). &quot;Paper Title Number X.&quot; <i>Journal or Conference Name</i>. 1(1).'
+category: 'category-name'  # Add this if you're using categories
+header:
+  teaser: '/images/paper-X-thumbnail.png'  # Add this for the image
+---
+
+Brief description or abstract of your paper goes here. This will appear as the introduction on the right side of your publication entry.
+
+[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+
+Recommended citation: Your Name, You. (YYYY). "Paper Title Number X." <i>Journal or Conference Name</i>. 1(1).
