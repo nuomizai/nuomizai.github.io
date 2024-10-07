@@ -42,5 +42,7 @@ websiteurl: 'http://example.com/project-website'
 videourl: 'http://youtube.com/example-video'
 dataseturl: 'http://example.com/dataset'
 header:
-  teaser: '/images/picture.png'
+  teaser: '/images/paper-thumbnail.png'
 ---
+
+Paper abstract or description goes here.
