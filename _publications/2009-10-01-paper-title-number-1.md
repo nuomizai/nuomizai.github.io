@@ -1,4 +1,25 @@
 ---
+layout: publication
+title: "Your Page Title"
+publications:
+  - title: "Publication Title 1"
+    authors: "Author 1, Author 2, Author 3"
+    venue: "Conference or Journal Name, Year"
+    image: "/path/to/image1.jpg"
+    paper: "https://link-to-paper.pdf"
+    website: "https://project-website.com"
+    code: "https://github.com/username/repo"
+    video: "https://youtube.com/watch?v=video-id"
+  - title: "Publication Title 2"
+    authors: "Author 1, Author 2"
+    venue: "Another Conference, Year"
+    image: "/path/to/image2.jpg"
+    paper: "https://link-to-another-paper.pdf"
+    # 其他字段如 website, code, video 是可选的
+---
+
+Your page content here (if any).
+<!-- ---
 title: "Paper Title Number 1"
 collection: publications
 category: manuscripts
@@ -11,4 +32,4 @@ paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font. -->
