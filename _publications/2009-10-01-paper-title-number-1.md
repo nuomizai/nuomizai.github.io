@@ -1,4 +1,4 @@
----
+<!-- ---
 title: "Paper Title Number 4"
 collection: publications
 category: manuscripts
@@ -27,5 +27,20 @@ citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 
     </ul>
     <p>For more details, please refer to the full paper.</p>
   </div>
-</div>
+</div> -->
 
+---
+title: "Paper Title"
+collection: publications
+permalink: /publication/YYYY-MM-DD-paper-title
+authors: "Your Name, Co-author 1, Co-author 2"
+venue: "Conference or Journal Name Year"
+date: YYYY-MM-DD
+paperurl: 'http://example.com/paper.pdf'
+codeurl: 'http://github.com/example/code'
+websiteurl: 'http://example.com/project-website'
+videourl: 'http://youtube.com/example-video'
+dataseturl: 'http://example.com/dataset'
+header:
+  teaser: '/images/paper-thumbnail.png'
+---
