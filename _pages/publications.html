@@ -25,16 +25,12 @@ author_profile: true
         <h2 style="color: yellow;">{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      <div style="max-width: 800px; margin: 0 auto;">
-        {% include archive-single.html %}
-      </div>
+      {% include archive-single.html %}
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    <div style="max-width: 800px; margin: 0 auto;">
-      {% include archive-single.html %}
-    </div>
+    {% include archive-single.html %}
   {% endfor %}
 {% endif %}
 
