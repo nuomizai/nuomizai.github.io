@@ -48,3 +48,13 @@ text-align: center;  // 居中对齐
 margin-bottom: 20px;  // 增加底部边距
 // 添加其他你想要的样式
 }
+
+.archive__item {
+  width: 100% !important;
+  max-width: 1200px !important;
+}
+
+.archive__item-content {
+  width: 100% !important;
+  max-width: 1200px !important;
+}
