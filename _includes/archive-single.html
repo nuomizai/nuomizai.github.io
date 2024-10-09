@@ -13,8 +13,8 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item" style="width: 100%; max-width: 1200px; margin: 0 auto;">
-  <article class="archive__item" style="width: 100%; max-width: 1200px; ">
-    <div class="archive__item-content" style="display: flex; flex-direction: row; align-items: flex-start; width: 100%;">
+  <article class="archive__item" style="width: 100% !important; max-width: 1200px !important; margin: 0 auto !important;">
+    <div class="archive__item-content" style="display: flex !important; flex-direction: row !important; align-items: flex-start !important; width: 100% !important; max-width: 1200px !important;">
       <div class="archive__item-teaser" style="flex: 0 0 30%; margin-right: 20px;">
         <img src=
           {% if teaser contains "://" %}

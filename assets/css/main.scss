@@ -52,9 +52,14 @@ margin-bottom: 20px;  // 增加底部边距
 .archive__item {
   width: 100% !important;
   max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 .archive__item-content {
   width: 100% !important;
   max-width: 1200px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: flex-start !important;
 }
