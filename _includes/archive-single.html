@@ -14,7 +14,7 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="archive__item-content" style="display: flex; flex-direction: column; align-items: stretch; max-width: 90%; margin: 0 auto;">
+    <div class="archive__item-content" style="display: flex; flex-direction: row; align-items: flex-start; max-width: 90%; margin: 0 auto;">
       <div class="archive__item-teaser" style="flex: 0 0 30%; margin-right: 20px;">
         <img src=
           {% if teaser contains "://" %}
@@ -22,11 +22,11 @@
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="" style="width: 30%; height: auto;" autoplay loop>
+          alt="" style="width: 100%; height: auto;" autoplay loop>
       </div>
     
       <div style="flex: 1;">
-        <h2 class="archive__item-title" itemprop="headline" style="font-size: 0.5em; text-decoration: none;">
+        <h2 class="archive__item-title" itemprop="headline" style="font-size: 1.2em; text-decoration: none;">
           {{ title }}
         </h2>
         
