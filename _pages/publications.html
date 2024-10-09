@@ -21,12 +21,16 @@ author_profile: true
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
-      {% include archive-single.html %}
+      <div style="margin-top: 30px;">
+        {% include archive-single.html %}
+      </div>
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    <div style="margin-top: 30px;">
+      {% include archive-single.html %}
+    </div>
   {% endfor %}
 {% endif %}
 
