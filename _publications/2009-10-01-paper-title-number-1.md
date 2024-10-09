@@ -4,8 +4,8 @@ collection: publications
 category: manuscripts
 permalink: /publication/2009-10-01-paper-title-number-1
 authors: 
-  - Co-author "Yinuo Zhao"
-  - Co-author "Kun Wu"
+  - "Yinuo Zhao*"
+  - "Kun Wu*"
   - "Zhiyuan Xu"
   - "Zhengping Che"
   - "Qi Lu"
