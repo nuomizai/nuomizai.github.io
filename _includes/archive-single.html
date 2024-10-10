@@ -68,9 +68,15 @@
         <p class="page__date" style="margin-top: 0.2em; margin-bottom: 0.2em; color: black;"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }} <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
       {% endif %}
 
+      {% if post.paperurl contains "://" %}
+        {% assign paper_link = post.paperurl %}
+      {% else %}
+        {% assign paper_link = post.paperurl | prepend: "/papers/" | prepend: base_path %}
+      {% endif %}
+
       <p style="margin-top: 0.2em; margin-bottom: 0.2em; font-size: 0.8em;">
         {% if post.paperurl %}
-          <a href="{{ post.paperurl }}" style="text-decoration: none; margin-right: 10px;">[paper]</a>
+          <a href="{{ paper_link }}" style="text-decoration: none; margin-right: 10px;">[paper]</a>
         {% endif %}
         {% if post.codeurl %}
           <a href="{{ post.codeurl }}" style="text-decoration: none;">[code]</a>
