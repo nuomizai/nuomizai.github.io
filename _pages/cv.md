@@ -11,4 +11,5 @@ redirect_from:
 
 You can download my full CV using the link below:
 
-[Download my CV (PDF)]({% raw %}{{ site.baseurl }}{% endraw %}{% raw %}{% include base_path %}{% endraw %}/files/cv.pdf)
+{% assign cv_link = "/files/cv.pdf" | prepend: base_path %}
+[Download my CV (PDF)]({{ cv_link }})
