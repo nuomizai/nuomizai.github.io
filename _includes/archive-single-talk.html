@@ -12,31 +12,49 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
-  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
-      <div class="archive__item-teaser">
+<div class="{{ include.type | default: "list" }}__item" style="width: 100%; max-width: 1200px; margin: 0 auto;">
+  <div class="archive__item-content" style="display: flex !important; flex-direction: row !important; align-items: flex-start !important; width: 100% !important; max-width: 1200px !important;">
+    <div class="archive__item-teaser" style="flex: 0 0 40%; margin-right: 20px;">
+      {% if post.youtube_id %}
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/{{ post.youtube_id }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      {% else %}
         <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
           {% else %}
             "{{ teaser | prepend: "/images/" | prepend: base_path }}"
           {% endif %}
-          alt="">
-      </div>
-    {% endif %}
-    <h2 class="archive__item-title" itemprop="headline" style="color: yellow;">
-      {% if post.link %}
-        <a href="{{ post.link }}" style="color: yellow;">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="color: yellow;"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-      {% else %}
-        <a href="{{ base_path }}{{ post.url }}" rel="permalink" style="color: yellow;">{{ title }}</a>
+          alt="" style="width: 100%; height: auto;">
       {% endif %}
-    </h2>
-    {% if post.read_time %}
-      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
-    {% endif %}
-    {% if post.date %}<p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}</p>{% endif %}
-    {% if post.venue %}<p class="archive__item-excerpt" itemprop="description">{{post.type}}, {{ post.venue }},  {{post.location}} {% endif %}
-    {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>{% endif %}
-  </article>
+    </div>
+    <div style="flex: 1; display: flex; flex-direction: column;">
+      <h2 class="archive__item-title" itemprop="headline" style="font-size: 1.0em; text-decoration: none; order: -1; margin-top: 0; color: black;">
+        {{ title }}
+      </h2>
+
+      {% if post.date %}
+        <p class="page__meta" style="margin-top: 0.2em; margin-bottom: 0.2em; font-size: 0.8em;">
+          <i class="fa fa-clock-o" aria-hidden="true"></i> {{ post.date | date: '%B %d, %Y' }}
+        </p>
+      {% endif %}
+
+      {% if post.venue %}
+        <p class="archive__item-excerpt" style="margin-top: 0.2em; margin-bottom: 0.2em; font-size: 0.9em;">
+          {{post.type}}, {{ post.venue }}, {{post.location}}
+        </p>
+      {% endif %}
+
+      {% if post.excerpt %}
+        <p class="archive__item-excerpt" itemprop="description" style="margin-top: 0.2em; margin-bottom: 0.2em; font-size: 0.9em;">
+          {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+        </p>
+      {% endif %}
+
+      {% if post.talk_url %}
+        <p style="margin-top: 0.2em; margin-bottom: 0.2em; font-size: 0.8em;">
+          <a href="{{ post.talk_url }}" style="text-decoration: none;">[More Info]</a>
+        </p>
+      {% endif %}
+    </div>
+  </div>
 </div>
