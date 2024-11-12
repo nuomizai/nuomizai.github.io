@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I'm Yinuo Zhao, an AI researcher specializing in reinforcement learning, embodied planning, and control. I'm currently a fifth-year PhD candidate at Beijing Institute of Technology, supervised by [Prof. Chi Harold Liu](https://cs.bit.edu.cn/szdw/jsml/gjjgccrc/lc_1065cf35e06845a7a667945726df0886/index.htm). My research focuses on developing self-improvement policies and recovery strategies for robotic manipulation using large-scale real-world data. My ultimate goal is to create robots that can handle daily tasks and reduce the need for human labor.
+I have focused on the study of reinforcement learning (RL) since obtaining my bachelor’s degree at the Beijing Institute of Technology. My research is driven by the observation that traditional RL algorithms often struggle with real-world challenges, particularly when faced with sparse feedback and complex action distributions. During my doctoral research, I addressed these challenges by developing novel algorithms aimed at improving both the learning efficiency and stability in environments with limited feedback. My work focuses on refining exploration strategies and utilizing auxiliary tasks to mitigate the negative effects of sparse rewards. Additionally, I am exploring solutions to complex multi-task manipulation problems by leveraging large-scale offline demonstrations. Ultimately, my goal is to develop general manipulation policies that can autonomously recover and improve themselves in dynamic and unpredictable environments.
 
-Previously, I spent two years at Midea Group researching end-to-end robot manipulation policies using reinforcement learning for service robots. Before that, I interned at DiDi AI Lab, working on autonomous driving policies with visual reinforcement learning. 
+Previously, I spent two years at Midea Group researching end-to-end robot manipulation policies for service robots using reinforcement learning. Prior to that, I interned at DiDi AI Lab, developing autonomous driving policies with visual reinforcement learning.
 
 
 <!-- A data-driven personal website
