@@ -3,9 +3,14 @@ title: "RoboMIND: Benchmark on Multi-embodiment Intelligence Normative Data for 
 collection: publications
 category: manuscripts
 authors: 
-  - "Kun Wu"
-  - "Chengkai Hou"
-  - "Jiaming Liu"
+  - "Kun Wu*"
+  - "Chengkai Hou*"
+  - "Jiaming Liu*"
+  - "Zhengping Che*"
+  - "Xiaozhu Ju*"
+  - "Zhuqin Yang"
+  - "Meng Li"
+  - "Yinuo Zhao"
   - "et. al"
 date: 2024-12-18
 venue: 'Arxiv'
