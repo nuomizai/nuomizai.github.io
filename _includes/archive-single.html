@@ -79,7 +79,10 @@
           <a href="{{ paper_link }}" style="text-decoration: none; margin-right: 10px;">[paper]</a>
         {% endif %}
         {% if post.codeurl %}
-          <a href="{{ post.codeurl }}" style="text-decoration: none;">[code]</a>
+          <a href="{{ post.codeurl }}" style="text-decoration: none; margin-right: 10px;">[code]</a>
+        {% endif %}
+        {% if post.projecturl %}
+          <a href="{{ post.projecturl }}" style="text-decoration: none;">[project]</a>
         {% endif %}
       </p>
     </div>
