@@ -14,6 +14,6 @@ paperurl: 'https://arxiv.org/abs/2412.13877'
 projecturl: 'https://x-humanoid-robomind.github.io/'
 # citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
 header:
-  teaser: robomind.png
+  teaser: roboMIND.png
 ---
 
