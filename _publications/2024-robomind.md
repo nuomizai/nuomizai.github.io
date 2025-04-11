@@ -12,8 +12,8 @@ authors:
   - "Meng Li"
   - "Yinuo Zhao"
   - "et. al"
-date: 2024-12-18
-venue: 'Arxiv'
+date: 2025-04-11
+venue: 'RSS'
 # codeurl: ''
 paperurl: 'https://arxiv.org/abs/2412.13877'
 projecturl: 'https://x-humanoid-robomind.github.io/'
