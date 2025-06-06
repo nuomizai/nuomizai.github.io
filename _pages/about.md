@@ -14,8 +14,8 @@ Previously, I spent two years at Midea Group researching end-to-end robot manipu
 
 ## 🔥 News
 
-- **2025.03**: xxx.
-- **2024.05**: 🎉 xxx!
+- **2024.06**: 🎉 Our team received the **Honorable Mention Prize** at MOASEI 2025 during the 24th AAMAS! Congratulations to my supervised students Zouyu, Tianjiao, and Yuxiang for their outstanding contributions.  
+  👉 <a href="/images/BIT-Student-Award.pdf" target="_blank">[Award Certificate]</a>
 
 <!-- A data-driven personal website
 ======
