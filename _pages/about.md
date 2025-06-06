@@ -12,13 +12,10 @@ I have focused on the study of reinforcement learning (RL) since obtaining my ba
 Previously, I spent two years at Midea Group researching end-to-end robot manipulation policies for service robots using reinforcement learning. Prior to that, I interned at DiDi AI Lab, developing autonomous driving policies with visual reinforcement learning.
 
 
-## News
+## 🔥 News
 
-{% for post in site.collections.news.docs reversed %}
-  <h3>{{ post.title }}</h3>
-  <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</strong></p>
-  {{ post.content }}
-{% endfor %}
+- **2025.03**: xxx.
+- **2024.05**: 🎉 xxx!
 
 <!-- A data-driven personal website
 ======
