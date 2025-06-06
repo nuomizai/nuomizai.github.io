@@ -14,9 +14,9 @@ Previously, I spent two years at Midea Group researching end-to-end robot manipu
 
 ## News
 
-{% for post in site.collections.news.docs reversed %}
+{% for post in site.news reversed %}
   <h3>{{ post.title }}</h3>
-  <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+  <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: "%B %d, %Y" }}</strong></p>
   {{ post.content }}
 {% endfor %}
 
