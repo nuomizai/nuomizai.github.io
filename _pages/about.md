@@ -12,6 +12,14 @@ I have focused on the study of reinforcement learning (RL) since obtaining my ba
 Previously, I spent two years at Midea Group researching end-to-end robot manipulation policies for service robots using reinforcement learning. Prior to that, I interned at DiDi AI Lab, developing autonomous driving policies with visual reinforcement learning.
 
 
+## News
+
+{% for post in site.news reversed %}
+  <h3>{{ post.title }}</h3>
+  <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></p>
+  {{ post.content }}
+{% endfor %}
+
 <!-- A data-driven personal website
 ======
 Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
