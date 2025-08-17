@@ -13,6 +13,8 @@ Previously, I spent two years at Midea Group researching end-to-end robot manipu
 
 
 ## 🔥 News
+- **2025.08**: 🎉 I uploaded my doctoral consortium paper on Training Generalizable Visuomotor Policies with Real-world RL. Always open for cooperation! 👉 <a href="https://nuomizai.github.io/papers/doctoral-consortium.pdf" target="_blank">[Paper]</a>
+- **2025.08**: 🎉 We release Articulated Digital Assets (ArtVIP) to enhance  physical fidelity for robot learning. 👉 <a href="https://arxiv.org/pdf/2506.04941" target="_blank">[Paper]</a>
 - **2025.06**: 🎉 Our paper "\\(\mathrm{T}^2\\)-VLM" has been accepted to ICCV 2025. Many thanks to all co-authors for their excellent contributions.  👉 <a href="https://arxiv.org/pdf/2507.04789" target="_blank">[Paper]</a>
 - **2025.06**: 🎉 Our paper "HACTS" has been accepted to IROS 2025. Many thanks to all co-authors for their excellent contributions.  👉 <a href="http://arxiv.org/abs/2503.24070" target="_blank">[Paper]</a>
 - **2025.06**: 🎉 Our team received the **Honorable Mention Prize** at MOASEI 2025 during the 24th AAMAS! Congratulations to my supervised students Yu Zou, Tianjiao Yi, and Yuxiang Song for their outstanding contributions.    👉 <a href="/images/BIT-Student-Award.pdf" target="_blank">[Award Certificate]</a> <a href="https://oasys-mas.github.io/moasei.html" target="_blank">[Website]</a>
