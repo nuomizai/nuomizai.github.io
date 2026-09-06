@@ -13,11 +13,7 @@ Previously, I spent two years at Midea Group researching end-to-end robot manipu
 
 
 ## 🔥 News
-<<<<<<< HEAD
 - **2026.09**: 🎉 Two papers were accepted in CoRL 2026! 👉 <a href="https://arxiv.org/abs/2607.09866" target="_blank">[Robo-ValueRL]</a><a href="https://arxiv.org/abs/2602.14032" target="_blank">[RoboAug]</a>
-=======
-- **2025.12**: 📄 We release SiLRI for efficient real-world robot manipulation via RL (with code). 👉 <a href="https://arxiv.org/pdf/2512.24288" target="_blank">[Paper]</a>
->>>>>>> c0dafedf318db385353712a5a06316f5400fd310
 - **2025.08**: 🎉 I uploaded my doctoral consortium paper on Training Generalizable Visuomotor Policies with Real-world RL. Always open for cooperation! 👉 <a href="https://nuomizai.github.io/papers/doctoral-consortium.pdf" target="_blank">[Paper]</a>
 - **2025.08**: 🎉 We release Articulated Digital Assets (ArtVIP) to enhance  physical fidelity for robot learning. 👉 <a href="https://arxiv.org/pdf/2506.04941" target="_blank">[Paper]</a>
 - **2025.06**: 🎉 Our paper "\\(\mathrm{T}^2\\)-VLM" has been accepted to ICCV 2025. Many thanks to all co-authors for their excellent contributions.  👉 <a href="https://arxiv.org/pdf/2507.04789" target="_blank">[Paper]</a>
